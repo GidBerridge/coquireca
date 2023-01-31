@@ -1,0 +1,8 @@
+{
+  "name": "coquireca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GidBerridge/coquireca.git",
+  "author": "Gid Berridge <gid.berridge@gmail.com>",
+  "license": "MIT"
+}
