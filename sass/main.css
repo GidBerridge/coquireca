@@ -9,9 +9,6 @@ html {
   box-sizing: border-box;
 }
 
-.title {
-  color: rgb(119, 227, 119);
-}
 
 .flex-justify-center {
   display: flex;
