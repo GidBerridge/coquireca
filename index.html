@@ -65,8 +65,80 @@
 
           <div class="">
             <div class="d-flex justify-content-center">
-              <div class="col-10">
-                <video
+              <div class="col-6">
+                <div
+                  id="carouselExampleFade"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <video
+                        class="hero"
+                        width="100%"
+                        autoplay
+                        loop
+                        muted
+                        style="border-radius: 10px"
+                        src="https://coqui-reca.s3.amazonaws.com/videos/coqui-park.mp4"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <video
+                        class="hero"
+                        width="100%"
+                        autoplay
+                        loop
+                        muted
+                        style="border-radius: 10px"
+                        src="https://coqui-reca.s3.amazonaws.com/videos/coqui-parking.mp4"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="carousel-item">
+                      <video
+                        class="hero"
+                        width="100%"
+                        autoplay
+                        loop
+                        muted
+                        style="border-radius: 10px"
+                        src="https://coqui-reca.s3.amazonaws.com/videos/coqui-school.mp4"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- <video
                   id="hero"
                   width="100%"
                   autoplay
@@ -79,7 +151,7 @@
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
-                </video>
+                </video> -->
               </div>
             </div>
             <div class="col-12 home_text d-flex justify-content-center my-5">
