@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 247, 240);
+  font-family: "lato";
+}
+
+.title {
+  color: rgb(6, 143, 212);
+  font-family: "Rock Salt", cursive;
+}
+.title h1 {
+  font-size: 10rem;
+}
+
+.home_text {
+  font-size: 2rem;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.card-home {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+}
+.card-home:hover {
+  scale: 1.2;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.card-home img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-home h3 {
+  font-size: 2rem;
+  color: rgb(57, 57, 56);
+  text-align: center;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+.sun-bg {
+  background-image: url("../../img/argentine_sun2.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: 53%;
+  background-blend-mode: color-dodge;
+}/*# sourceMappingURL=main.css.map */
