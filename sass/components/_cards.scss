@@ -1,0 +1,22 @@
+.card-home{
+    display: flex;
+    flex-direction: column;
+    
+    width: 10rem;
+    &:hover {
+            scale: 1.2;
+            transition: 0.3s;
+            opacity: 0.8;
+        }
+    img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    h3 {
+        font-size: 2rem;
+        color: rgb(57, 57, 56);
+        text-align: center;
+        font-weight: 200;
+        line-height: 2rem;
+    }
+}
