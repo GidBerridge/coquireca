@@ -1,10 +1,13 @@
-// const heroVid = document.querySelector('hero')
-// heroVid.playbackRate = 3
-
 const videos = document.querySelectorAll('video')
 for (let i = 0; i < videos.length; i++) {
   videos[i].playbackRate = 2.0
 }
+
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: false,
+})
 
 // import { menuFade } from './menuFade.js'
 // import { scroll } from './smoothScrolling.js'

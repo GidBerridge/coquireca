@@ -14,6 +14,18 @@ body {
   font-family: "lato";
 }
 
+p {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .title {
   color: rgb(6, 143, 212);
   font-family: "Rock Salt", cursive;
@@ -36,9 +48,40 @@ body {
   font-size: 2rem;
 }
 
+.slide-text {
+  color: rgb(255, 247, 240);
+  font-family: "lato", sans-serif;
+}
+.slide-text h2 {
+  font-size: 4rem;
+  font-family: "Londrina Solid", cursive;
+}
+.slide-text p {
+  font-size: 2rem;
+}
+
 .flex-justify-center {
   display: flex;
   justify-content: center;
+}
+
+.musicman {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+}
+.musicman h2 {
+  font-size: 4rem;
+}
+.musicman h3 {
+  font-size: 3rem;
+}
+.musicman img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.songlist {
+  font-size: 2.5rem;
 }
 
 .card-home {
@@ -61,6 +104,24 @@ body {
   text-align: center;
   font-weight: 200;
   line-height: 2rem;
+}
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.3;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
 }
 
 .sun-bg {

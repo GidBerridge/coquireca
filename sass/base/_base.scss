@@ -10,6 +10,18 @@ html {
 }
 
 body {
-  background-color: rgb(255, 247, 240);
+  background-color: $main-bg;
   font-family: 'lato';
+}
+
+p{
+  font-size: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
 }

@@ -1,0 +1,19 @@
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
