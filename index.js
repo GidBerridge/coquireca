@@ -3,7 +3,7 @@
 
 const videos = document.querySelectorAll('video')
 for (let i = 0; i < videos.length; i++) {
-  videos[i].playbackRate = 3.0
+  videos[i].playbackRate = 2.0
 }
 
 // import { menuFade } from './menuFade.js'
