@@ -1,40 +1,44 @@
-.footer-text{
+.footer-text {
     text-align: center;
-    h2{
+    h2 {
         font-size: 3rem;
     }
 }
 
-
 .title {
     color: rgb(6, 143, 212);
     font-family: 'Rock Salt', cursive;
-
     h1 {
         font-size: 4rem;
-
         @media only screen and (min-width: 576px) {
-                font-size: 7rem;
-            }
-
+            font-size: 7rem;
+        }
         @media only screen and (min-width: 768px) {
             font-size: 10rem;
         }
-    } 
+    }
 }
 
 .home_text {
     font-size: 2rem;
 }
 
-.slide-text{
+.slide-text {
     color: $main-bg;
     font-family: "lato", sans-serif;
-    h2{
+    h2 {
         font-size: 4rem;
         font-family: 'Londrina Solid', cursive;
     }
-    p{
+    p {
         font-size: 2rem;
     }
+}
+
+.bandname {
+    color: #7a2e2e;
+}
+
+.albumtitle {
+    color: #f67141;
 }
