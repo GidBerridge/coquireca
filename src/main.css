@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: rgb(255, 247, 240);
-  font-family: "lato";
+  font-family: "Londrina Solid", cursive;
 }
 
 p {
@@ -24,6 +24,13 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.footer-text {
+  text-align: center;
+}
+.footer-text h2 {
+  font-size: 3rem;
 }
 
 .title {
