@@ -1,11 +1,36 @@
-#home{
-    
-}
+#home {}
 
-.sun-bg{
+.sun-bg {
     background-image: url("../../img/argentine_sun2.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position-x: 53%;
     background-blend-mode: color-dodge;
+}
+
+.title_pos {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    @media only screen and (min-width: 768px) {
+        transform: translateX(-27px);
+        /*D element Width[if needed]*/
+    }
+}
+
+.home-button {
+    font-size: 3rem;
+    display: none;
+    align-items: center;
+    @media only screen and (min-width: 768px) {
+        display: flex;
+    }
+    &__mobile {
+        font-size: 2rem;
+        margin: 0.25rem 0 0 0.25rem;
+        display: flex;
+        @media only screen and (min-width: 768px) {
+            display: none;
+        }
+    }
 }
