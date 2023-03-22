@@ -31,6 +31,10 @@ ul {
 }
 .footer-text h2 {
   font-size: 3rem;
+  color: rgb(6, 143, 212);
+}
+.footer-text h2:hover {
+  color: rgb(245, 186, 37);
 }
 
 .title {
@@ -196,4 +200,13 @@ ul {
   .home-button__mobile {
     display: none;
   }
+}
+
+.email-icon {
+  margin: 0.5rem 0 !important;
+  width: 8rem;
+  transition: scale 0.3s ease;
+}
+.email-icon:hover {
+  scale: 1.2;
 }/*# sourceMappingURL=main.css.map */

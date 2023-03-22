@@ -2,6 +2,10 @@
     text-align: center;
     h2 {
         font-size: 3rem;
+        color: rgb(6, 143, 212);
+        &:hover {
+            color: rgb(245, 186, 37);
+        }
     }
 }
 
